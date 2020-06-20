@@ -51,3 +51,15 @@ export class NgMatModule { }'
   { path: 'singup', component: SingupComponent },
   { path: 'content', component: ContentComponent}
 '
+
+## bootstrap 4 
+'// in your terminal in the root of your project
+npm install bootstrap jquery popper'
+
+'// scrll down to the style section and add bootstrap line below
+            "styles": [
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],'
+
+## 
