@@ -25,3 +25,29 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## 'ng g c auth/login'
+## 'ng g c auth/singup'
+## 'ng g c content/'
+## 'ng g m material/ng-mat'
+## 'ng add @angular/material'
+## 'const materialCom = [
+  MatFormFieldModule,
+  MatInputModule,
+  MatIconModule
+];
+
+@NgModule({
+  imports: [materialCom],
+  exports: [materialCom],
+})
+export class NgMatModule { }' 
+
+
+## '
+  { path : '', component: AppComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'singup', component: SingupComponent },
+  { path: 'content', component: ContentComponent}
+'
